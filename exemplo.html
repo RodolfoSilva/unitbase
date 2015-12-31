@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/unitbase.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <title>Exemplo Unitbase</title>
+</head>
+<body>
+
+<header>
+  <button>Clientes</button>
+  <button>Fornecedores</button>
+  <button>Estoque</button>
+  <button>Orçamentos</button>
+</header>
+
+<nav>
+  <button><i class="fa fa-fw fa-2x fa-file text-unitcom"></i><br>Cadastrar</button>
+  <button><i class="fa fa-fw fa-2x fa-search text-unitcom"></i><br>Pesquisar</button>
+  <button><i class="fa fa-fw fa-2x fa-pie-chart text-unitcom"></i><br>Relatórios</button>
+</nav>
+
+<section class="form">
+  <div class="form-name">Cadastrar Cliente</div>
+  <div class="row">
+    <div class="col col-3">
+      <label>Nome:</label>
+      <input type="text" class="textbox">
+    </div>
+    <div class="col col-3">
+      <label>Sobrenome:</label>
+      <input type="text" class="textbox">
+    </div>
+    <div class="col col-3">
+      <label>Sexo:</label>
+      <select>
+        <option>Masculino</option>
+        <option>Feminino</option>
+      </select>
+    </div>
+    <div class="col col-3">
+      <label>Telefone:</label>
+      <input type="text" class="textbox">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col-4">
+      <label>Email:</label>
+      <input type="text" class="textbox">
+    </div>
+    <div class="col col-4">
+      <label>Endereço:</label>
+      <input type="text" class="textbox">
+    </div>
+    <div class="col col-4">
+      <label>Website:</label>
+      <input type="text" class="textbox">
+    </div>
+  </div>
+  <div class="form-control">
+    <button><i class="fa fa-fw fa-check text-green"></i> Cadastrar</button>
+    <button><i class="fa fa-fw fa-trash-o text-red"></i> Apagar</button>
+  </div>
+</section>
+
+<table class="data-grid grid-cliente" id="grid-cliente">
+  <thead>
+    <tr>
+      <th>Nome:</th>
+      <th>Sobrenome:</th>
+      <th>E-mail:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Felipe</td><td>Rocha</td><td>felipe.rocha@fake.com</td></tr>
+    <tr><td>Matheus</td><td>Ferrari</td><td>matheus.ferrari@fake.com</td></tr>
+    <tr><td>Bernardo</td><td>Martins</td><td>bernardo.rocha@fake.com</td></tr>
+    <tr><td>Bruno</td><td>Madeira</td><td>bruno.madeira@fake.com</td></tr>
+    <tr><td>Gustavo</td><td>Oliveira</td><td>gustavo.oliveira@fake.com</td></tr>
+    <tr><td>João</td><td>Silva</td><td>joao.silva@fake.com</td></tr>
+    <tr><td>Felipe</td><td>Rocha</td><td>felipe.rocha@fake.com</td></tr>
+    <tr><td>Matheus</td><td>Ferrari</td><td>matheus.ferrari@fake.com</td></tr>
+    <tr><td>Bernardo</td><td>Martins</td><td>bernardo.rocha@fake.com</td></tr>
+    <tr><td>Bruno</td><td>Madeira</td><td>bruno.madeira@fake.com</td></tr>
+    <tr><td>Gustavo</td><td>Oliveira</td><td>gustavo.oliveira@fake.com</td></tr>
+    <tr><td>João</td><td>Silva</td><td>joao.silva@fake.com</td></tr>
+    <tr><td>Felipe</td><td>Rocha</td><td>felipe.rocha@fake.com</td></tr>
+    <tr><td>Matheus</td><td>Ferrari</td><td>matheus.ferrari@fake.com</td></tr>
+    <tr><td>Bernardo</td><td>Martins</td><td>bernardo.rocha@fake.com</td></tr>
+    <tr><td>Bruno</td><td>Madeira</td><td>bruno.madeira@fake.com</td></tr>
+    <tr><td>Gustavo</td><td>Oliveira</td><td>gustavo.oliveira@fake.com</td></tr>
+  </tbody>
+</table>
+
+</body>
+</html>
